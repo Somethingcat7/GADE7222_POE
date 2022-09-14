@@ -36,7 +36,7 @@ public class DialogueSystem : MonoBehaviour
         }
 
         numCount = 1;
-        text.text = dialogue.;
+        //text.text = dialogue.;
 
     }
 

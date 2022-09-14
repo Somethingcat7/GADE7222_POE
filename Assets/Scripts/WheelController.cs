@@ -7,12 +7,17 @@ public class WheelController : MonoBehaviour
 {
     [SerializeField] WheelCollider FrontRight;
     [SerializeField] WheelCollider FrontLeft;
-    [SerializeField] WheelCollider Back;
+    [SerializeField] WheelCollider BackLeft;
+    [SerializeField] WheelCollider BackRight;
 
     public float acceleration = 500f;
     public float breakingForce = 300f;
-    public float currentAcceleration = 0f;
-    public float currentBrakeForce = 0f;
+    public float maxTurnAngle = 30f;
+    
+    
+    private float currentAcceleration = 0f;
+    private float currentBrakeForce = 0f;
+    private float currentTurnAngle = 0f;
 
     
 
@@ -35,6 +40,11 @@ public class WheelController : MonoBehaviour
 
         FrontRight.brakeTorque = currentBrakeForce;
         FrontLeft.brakeTorque = currentBrakeForce;
-        Back.brakeTorque = currentBrakeForce;
+        BackLeft.brakeTorque = currentBrakeForce;
+        BackRight.brakeTorque = currentBrakeForce;
+
+        currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
+        FrontLeft.steerAngle = currentTurnAngle;
+        FrontRight.steerAngle = currentTurnAngle;
     }
 }
