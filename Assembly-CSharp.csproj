@@ -63,10 +63,10 @@
     <Compile Include="Assets\Scripts\GetText.cs" />
     <Compile Include="Assets\MST_Creator\Car Controller For Unity\Scripts\Wheel_Effects.cs" />
     <Compile Include="Assets\MST_Creator\Car Controller For Unity\Scripts\Speedometer_Controller.cs" />
+    <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\WheelController.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\LinkList.cs" />
-    <Compile Include="Assets\Scripts\Node.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MST_Creator\TextMesh Pro\Shaders\TMPro.cginc" />
