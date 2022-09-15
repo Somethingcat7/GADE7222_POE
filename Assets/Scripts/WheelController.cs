@@ -26,8 +26,6 @@ public class WheelController : MonoBehaviour
     {
         //get acceleration from axis
         currentAcceleration = acceleration * Input.GetAxis("Vertical");
-        
-               
                 
         //sets braking force
         if (Input.GetKey(KeyCode.Space))
@@ -47,7 +45,7 @@ public class WheelController : MonoBehaviour
         //giving each wheel their respective force.
         FrontRight.motorTorque = currentAcceleration;
         FrontLeft.motorTorque = currentAcceleration;
-                                                         
+
         //all wheels have break force
         FrontRight.brakeTorque = currentBrakeForce;
         FrontLeft.brakeTorque = currentBrakeForce;
