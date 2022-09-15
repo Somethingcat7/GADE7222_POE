@@ -57,6 +57,8 @@
      <Compile Include="Assets\Scripts\WheelController.cs" />
      <Compile Include="Assets\Scripts\DialogueSystem.cs" />
      <Compile Include="Assets\Scripts\LinkList.cs" />
+     <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\AllCheckPoints.cs" />
      <None Include="Assets\StreamingAssets\Recall_Chat\Chat.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
