@@ -8,12 +8,12 @@ public class Queue<T>
 
     public Queue()
     {
-        linkedlist = new LinkList<T>();
+        linklist = new LinkList<T>();
     }
 
     public void AddToQueue(T data)
     {
-        linkedlist.AddLast(data);
+        linklist.AddTailNode(data);
     }
 
     public T LookInQueue()
@@ -21,12 +21,11 @@ public class Queue<T>
         return linklist.Head.Data;
     }
 
-    public T ClearQueue()
+    public T Dequeue()
     {
         Node<T> node;
-        linkedlist.Clear
-        node = linkedlist.Head;
-
+        linklist.DeleteAtHead();
+        node = linklist.Head;
         return node.Data;
     }
    

@@ -5,6 +5,8 @@ using UnityEngine;
 public class Node<T>
 {
     private T data;
+    public T Data { get { return data; } set { data = value; } }
+
     private Node<T> next;
 
     public Node(T data)
@@ -17,6 +19,11 @@ public class Node<T>
     public void setNext(Node<T> next)
     {
         this.next = next;
+    }
+
+    public Node<T> getNext()
+    {
+        return this.Next;
     }
 
 }

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class LinkList<T>
 {
-    public Node<T> head;
-    public Node<T> tail;
+    protected Node<T> head;
+    protected Node<T> tail;
+    protected Node<T> current;
     private int size = 0;
 
     public Node<T> Head { get { return head; } set { head = value; } }
@@ -71,6 +72,26 @@ public class LinkList<T>
         }
 
         this.size++;
+    }
+
+    public Node<T> DeleteAtHead()
+    {
+        /*if (isEmpty())
+            throw new RuntimeException("Empty Linked List.");*/
+        this.current = this.head;
+        if (size == 1)
+            this.head = this.tail = null;
+        else
+        {
+            this.head = this.current.getNext();
+        }
+        this.size--;
+        return this.current;
+    }
+
+    public bool isEmpty()
+    {
+        return this.head == null && this.tail == null;
     }
 
 }

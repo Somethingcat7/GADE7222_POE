@@ -1,0 +1,2 @@
+W/Up Arrow - Forward S/Down Arrow - Reverse A/Left Arrow - Left D/Right Arrow - Right Spacebar - Brake
+This line can be read and displayed but we didn't know where to do it yet
