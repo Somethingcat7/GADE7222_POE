@@ -13,7 +13,7 @@ public class WheelController : MonoBehaviour
     //preset values for essential mechanics
     public float acceleration = 800f;
     public float breakingForce = 300f;
-    public float maxTurnAngle = 45f;
+    public float TurningAngle = 45f;
     
     //placeholders
     private float currentAcceleration = 0f;
@@ -38,7 +38,7 @@ public class WheelController : MonoBehaviour
         }
 
         //gets horizontal input and sets left and right wheels to input
-        currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
+        currentTurnAngle = TurningAngle * Input.GetAxis("Horizontal");
         FrontLeft.steerAngle = currentTurnAngle;
         FrontRight.steerAngle = currentTurnAngle;
         
