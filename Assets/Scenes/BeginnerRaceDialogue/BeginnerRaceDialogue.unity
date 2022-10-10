@@ -456,6 +456,8 @@ Transform:
   - {fileID: 1066179812}
   - {fileID: 1263805991}
   - {fileID: 1185020439}
+  - {fileID: 1251325673}
+  - {fileID: 1708884516}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -468,6 +470,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 630997158}
+  - component: {fileID: 630997159}
   m_Layer: 0
   m_Name: CheckPoint6
   m_TagString: Untagged
@@ -482,13 +485,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630997157}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -370, y: 3.5, z: -467}
+  m_LocalRotation: {x: -0, y: 0.24286431, z: -0, w: 0.9700602}
+  m_LocalPosition: {x: 278, y: 3.5, z: -407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 28.111, z: 0}
+--- !u!65 &630997159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630997157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 161.07, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &718036829
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 754985792}
+  - component: {fileID: 754985793}
   m_Layer: 0
   m_Name: CheckPoint5
   m_TagString: Untagged
@@ -578,13 +595,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754985791}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 179, y: 3.5, z: -467}
+  m_LocalRotation: {x: -0, y: 0.314253, z: -0, w: 0.9493393}
+  m_LocalPosition: {x: 371.2, y: 3.5, z: 170.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 36.631, z: 0}
+--- !u!65 &754985793
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754985791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160.24, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1019773509
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1019773510}
+  - component: {fileID: 1019773511}
   m_Layer: 0
   m_Name: CheckPoint4
   m_TagString: Untagged
@@ -609,12 +640,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019773509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 294, y: 3.5, z: 70}
+  m_LocalPosition: {x: 691, y: 3.5, z: 376}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1019773511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019773509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 185.8, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1066179811
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1066179812}
+  - component: {fileID: 1066179813}
   m_Layer: 0
   m_Name: CheckPoint7
   m_TagString: Untagged
@@ -638,13 +683,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066179811}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -317, y: 3.5, z: 4}
+  m_LocalRotation: {x: -0, y: -0.46315873, z: -0, w: 0.88627535}
+  m_LocalPosition: {x: -381, y: 3.5, z: -438}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -55.182, z: 0}
+--- !u!65 &1066179813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066179811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 170.1, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1185020438
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,6 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1185020439}
+  - component: {fileID: 1185020440}
   m_Layer: 0
   m_Name: CheckPoint9
   m_TagString: Untagged
@@ -668,13 +727,70 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185020438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95, y: 3.5, z: 0}
+  m_LocalRotation: {x: -0, y: 0.7625858, z: -0, w: 0.64688706}
+  m_LocalPosition: {x: -295.9, y: 3.5, z: 5.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 99.385, z: 0}
+--- !u!65 &1185020440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185020438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 126.08, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1251325672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1251325673}
+  - component: {fileID: 1251325674}
+  m_Layer: 0
+  m_Name: CheckPoint10
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1251325673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251325672}
+  m_LocalRotation: {x: -0, y: 0.6591446, z: -0, w: 0.7520163}
+  m_LocalPosition: {x: -15, y: 3.5, z: -261}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 495638904}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 82.469, z: 0}
+--- !u!65 &1251325674
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251325672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 162.68, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1263805990
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1263805991}
+  - component: {fileID: 1263805992}
   m_Layer: 0
   m_Name: CheckPoint8
   m_TagString: Untagged
@@ -698,13 +815,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263805990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33, y: 3.5, z: -283}
+  m_LocalRotation: {x: -0, y: 0.32989356, z: -0, w: 0.9440182}
+  m_LocalPosition: {x: -397.5, y: 3.5, z: -28.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 38.525, z: 0}
+--- !u!65 &1263805992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263805990}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 118.7, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1267460551
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1348222009}
+  - component: {fileID: 1348222010}
   m_Layer: 0
   m_Name: CheckPoint1
   m_TagString: Untagged
@@ -822,12 +953,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348222008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -417, y: 3.5, z: 384}
+  m_LocalPosition: {x: -415.8, y: 11.6, z: 384.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1348222010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348222008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 182.21, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1353907249
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +981,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1353907250}
+  - component: {fileID: 1353907251}
   m_Layer: 0
   m_Name: CheckPoint2
   m_TagString: Untagged
@@ -851,13 +996,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353907249}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104, y: 3.5, z: 545}
+  m_LocalRotation: {x: -0, y: 0.6361233, z: -0, w: 0.77158743}
+  m_LocalPosition: {x: -133.8, y: 9.2, z: 533.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 79.007, z: 0}
+--- !u!65 &1353907251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353907249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 102.57, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1467931050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1248,17 +1406,17 @@ PrefabInstance:
     - target: {fileID: 6251034804965945640, guid: 64c7a08d88f1f0d4384c13198a1aa494,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.076008566
+      value: 0.07600856
       objectReference: {fileID: 0}
     - target: {fileID: 6251034804965945640, guid: 64c7a08d88f1f0d4384c13198a1aa494,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1e-45
+      value: -0.00000000428915
       objectReference: {fileID: 0}
     - target: {fileID: 6251034804965945640, guid: 64c7a08d88f1f0d4384c13198a1aa494,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 3.2695793e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7061947256280133226, guid: 64c7a08d88f1f0d4384c13198a1aa494,
         type: 3}
@@ -1321,6 +1479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613318304}
+  - component: {fileID: 1613318305}
   m_Layer: 0
   m_Name: CheckPoint3
   m_TagString: Untagged
@@ -1335,13 +1494,70 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613318303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 653, y: 3.5, z: 348}
+  m_LocalRotation: {x: -0, y: 0.82491493, z: -0, w: 0.56525683}
+  m_LocalPosition: {x: 553.5, y: 3.5, z: 493.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 495638904}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 111.16, z: 0}
+--- !u!65 &1613318305
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613318303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 107.31, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1708884515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1708884516}
+  - component: {fileID: 1708884517}
+  m_Layer: 0
+  m_Name: CheckPoint11
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1708884516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708884515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 101.6, y: 3.5, z: -39.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 495638904}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1708884517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708884515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 153.97, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1893706087
 GameObject:
   m_ObjectHideFlags: 3
@@ -1596,7 +1812,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019423444}
-  m_LocalRotation: {x: 0.076008566, y: 1e-45, z: 0, w: 0.9971072}
+  m_LocalRotation: {x: 0.07600856, y: -0.00000000428915, z: 3.2695793e-10, w: 0.9971072}
   m_LocalPosition: {x: 63.4, y: 16.17, z: -26.582535}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
