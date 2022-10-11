@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GenericFactory<T> : MonoBehaviour where T : MonoBehaviour
+public abstract class GenericFactory<T> : MonoBehaviour where T : MonoBehaviour
 {
-    [SerializeField] private T instance;
+    [SerializeField] protected T[] prefabs;
+    private int prefabindex;
 
     public T GetNewInstance()
     {
-        return Instantiate(instance);
+        var inst = Instantiate(prefabs[prefabindex]);
+        prefabindex++;
+        return inst;
     }
 }

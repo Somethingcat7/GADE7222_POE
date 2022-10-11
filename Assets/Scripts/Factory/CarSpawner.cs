@@ -2,23 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarSpawner : MonoBehaviour
+public class CarSpawner : GenericFactory<GeneralAI>
 {
-    [SerializeField] private float iNum = 30;
-    private int iCount = 0;
+    private GeneralAI[] generalAIs;
 
-    [SerializeField] TimedObjectFactory factory;
-
-    public void Update()
+    private void Awake()
     {
-        var iCount2 = Time.time * (iNum / 60);
+        /*var car = GetNewInstance();*/
+        
 
-        while (iCount2 > iCount)
+        for (int i = 0; i < prefabs.Length; i++)
         {
-            var inst = factory.GetNewInstance();
-            inst.transform.position = new Vector3(0, 0, 0);
+            var car = GetNewInstance();
+            car.transform.position = new Vector3(Random.Range(64, 80), 0, Random.Range(0, 5));
         }
-
-        iCount++;
     }
 }

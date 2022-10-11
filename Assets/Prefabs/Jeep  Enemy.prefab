@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 4054379907857136553}
   - component: {fileID: 1147246507783697420}
   - component: {fileID: 2886563094481453254}
-  - component: {fileID: 4597810692398037489}
+  - component: {fileID: 6923561928514178304}
   m_Layer: 0
   m_Name: Jeep  Enemy
   m_TagString: Untagged
@@ -275,7 +275,7 @@ Transform:
   m_GameObject: {fileID: 3679403130098704659}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 82.5082, y: -0.1462323, z: -2.3134346}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children:
   - {fileID: 2499216563707450005}
   - {fileID: 8022894700744495862}
@@ -339,7 +339,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4597810692398037489
+--- !u!114 &6923561928514178304
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,10 +348,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3679403130098704659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9892ab6933afe364c8f94bdeeaea82db, type: 3}
+  m_Script: {fileID: 11500000, guid: 4544edf74fe1f3a43bce851852398fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instance: {fileID: 4597810692398037489}
+  prefab: {fileID: 0}
 --- !u!1 &4978232717358453621
 GameObject:
   m_ObjectHideFlags: 0
