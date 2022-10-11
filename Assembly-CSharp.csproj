@@ -59,7 +59,9 @@
     <Compile Include="Assets\Scripts\AiRacers\AiFactory.cs" />
     <Compile Include="Assets\Scripts\CheckpointRace\AllCheckPoints.cs" />
     <Compile Include="Assets\Scripts\CheckpointRace\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\Factory\AIRacerFactory.cs" />
     <Compile Include="Assets\Scripts\GetText.cs" />
+    <Compile Include="Assets\Scripts\Factory\AIRacer.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\Factory\GenericFactory.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
@@ -68,9 +70,6 @@
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\Game_Manager.cs" />
     <Compile Include="Assets\Scripts\LinkList.cs" />
-    <Compile Include="Assets\Scripts\Factory\GeneralAI.cs" />
-    <Compile Include="Assets\Scripts\Factory\CarSpawner.cs" />
-    <Compile Include="Assets\Scripts\Factory\TimedObjectFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
