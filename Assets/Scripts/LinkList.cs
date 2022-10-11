@@ -94,4 +94,30 @@ public class LinkList<T>
         return this.head == null && this.tail == null;
     }
 
+    public T Next(T Checkpoint)
+    {
+        T Next = Head.Data;
+        Node<T> current = Head;
+
+        while (current != null)
+        {
+            if (current.Data.Equals(Checkpoint))
+            {
+                Next = current.Next.Data;
+                break;
+            }
+            else
+            {
+                current = current.Next;
+            }
+        }
+        Debug.Log(Next);
+        return Next;
+    }
+
+    public void Display()
+    {
+        Node < T > temp = head;
+        Debug.Log(temp);
+    }
 }

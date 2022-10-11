@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\Game_Manager.cs" />
     <Compile Include="Assets\Scripts\LinkList.cs" />
+    <Compile Include="Assets\Scripts\AiRacers\WaypointManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
