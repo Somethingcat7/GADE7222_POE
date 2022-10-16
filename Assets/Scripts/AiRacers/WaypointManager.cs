@@ -34,6 +34,6 @@ public class WaypointManager : MonoBehaviour
 
     public GameObject NextCheckpoint(GameObject gameObject)
     {
-        return null;
+        return linkList.Next(gameObject);
     }
 }

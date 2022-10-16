@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3944719933347469571}
   - component: {fileID: 8090687793223784627}
   - component: {fileID: 8755432389878612377}
-  - component: {fileID: 994685962848541218}
+  - component: {fileID: 8984344357734184880}
   m_Layer: 0
   m_Name: JeepEnemy
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_LocalPosition: {x: 64.63041, y: 8.451481, z: 29.337162}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1067688620882994289}
+  - {fileID: 1850502913522523656}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46,7 +46,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 8.5
   m_Speed: 50
-  m_Acceleration: 80
+  m_Acceleration: 25
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -82,7 +82,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.23, y: 2.48, z: 17.742828}
   m_Center: {x: 0, y: 4.65, z: -0.21650314}
---- !u!54 &994685962848541218
+--- !u!54 &8984344357734184880
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,80 +98,93 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1001 &3933116023250296792
+--- !u!1001 &2172133483469126115
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 5202978488187597407}
     m_Modifications:
-    - target: {fileID: 3679403130098704659, guid: c3c98ca294746a548b798a662605c59d,
-        type: 3}
-      propertyPath: m_Name
-      value: Jeep  Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071067
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+    - target: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
-    - {fileID: 0}
-  m_SourcePrefab: {fileID: 100100000, guid: c3c98ca294746a548b798a662605c59d, type: 3}
---- !u!4 &1067688620882994289 stripped
+    - target: {fileID: 919132149155446097, guid: ef117debf49839f43b8d9637b825c77f,
+        type: 3}
+      propertyPath: m_Name
+      value: Jeep  Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef117debf49839f43b8d9637b825c77f, type: 3}
+--- !u!4 &1850502913522523656 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4054379907857136553, guid: c3c98ca294746a548b798a662605c59d,
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef117debf49839f43b8d9637b825c77f,
     type: 3}
-  m_PrefabInstance: {fileID: 3933116023250296792}
+  m_PrefabInstance: {fileID: 2172133483469126115}
   m_PrefabAsset: {fileID: 0}
