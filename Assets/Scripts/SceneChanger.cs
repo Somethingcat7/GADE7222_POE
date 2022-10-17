@@ -10,4 +10,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Checkpoint Race");
     }
+
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

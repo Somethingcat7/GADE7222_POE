@@ -103,8 +103,16 @@ public class LinkList<T>
         {
             if (current.Data.Equals(Checkpoint))
             {
-                Next = current.Next.Data;
-                break;
+                if (current.Next == null)
+                {
+                    Next = Head.Data;
+                    break;
+                }
+                else
+                {
+                    Next = current.Next.Data;
+                    break;
+                }
             }
             else
             {
