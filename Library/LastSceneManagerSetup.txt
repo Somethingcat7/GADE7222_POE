@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/BeginnerRaceDialogue/BeginnerRaceDialogue.unity
+- path: Assets/Scenes/AdvanceRace/AdvanceRace.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
