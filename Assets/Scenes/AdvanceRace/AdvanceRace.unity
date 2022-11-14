@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: aa52d8d68690b8f4ca9229fccf658fe3, type: 2}
 --- !u!1 &753348521
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GADE Racetrack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852921705887802149, guid: e2d7b6f76d084254dbf6228f01c017b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8519210832174694894, guid: e2d7b6f76d084254dbf6228f01c017b5,
         type: 3}
