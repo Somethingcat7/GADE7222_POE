@@ -124,10 +124,10 @@ public class LinkList<T>
         Debug.Log(temp);
     }
 
-    public Node<X> SearchForNodeIndex(int index)
+    public Node<T> SearchForNodeIndex(int index)
     {
-        Node<X> returnNode = null;
-        Node<X> currentNode = Head;
+        Node<T> returnNode = null;
+        Node<T> currentNode = Head;
 
         int inIndex = 0;
 
@@ -140,11 +140,56 @@ public class LinkList<T>
             }
             else
             {
-                currentNode = currentNode.NextNode;
+                currentNode = currentNode.getNext();
             }
             inIndex++;
         }
         return returnNode;
     }
+    
+    public Node<T> SearchForNode(T search)
+    {
+        Node<T> returnNode = null;
+
+        Node<T> currentNode = head;
+
+        while (currentNode != null)
+        {
+            if (currentNode.Data.Equals(search))
+            {
+                returnNode = currentNode;
+                break;
+            }
+            currentNode = currentNode.getNext();
+        }
+
+        return returnNode;
+    }
+
+    public T SearchForIndex(int index)
+    {
+        T returNode = default(T);
+
+        Node<T> currentNode = Head;
+
+        int inindex = 0;
+
+        while (currentNode != null)
+        {
+            if (index == inindex)
+            {
+                returNode = currentNode.Data;
+                break;
+            }
+
+            currentNode = currentNode.getNext();
+            inindex++;
+            
+        }
+
+        return returNode;
+
+    }
+    
     
 }

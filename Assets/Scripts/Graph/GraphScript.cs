@@ -6,42 +6,64 @@ using System.Collections.Generic;
 
 public class GraphScript
 {
-    private LinkedList<GraphNode> _nodes = new LinkedList<GraphNode>();
+    private LinkList<GraphNode> _nodes = new LinkList<GraphNode>();
 
     public void NodeCreate(int value)
     {
-        _nodes.AddToTail(new GraphNode(value));
+        _nodes.AddTailNode(new GraphNode(value));
 
     }
 
-    public bool CreateEdge(int v1, int v2)
+    public void CreateEdge(int v1, int v2)
     {
-        GraphNode g1 = FindNode(v1);
-        GraphNode g2 = FindNode(v1);
+        GraphNode g1 = null;
+        GraphNode g2 = null;
 
-        GraphNode temp = null;
+        GraphNode temp;
 
-        for (int i = 0; i < nodes.Size; i++)
+        for (int i = 0; i < _nodes.Size; i++)
         {
-            temp = nodes.SearchForIndex(i);
+            temp = _nodes.SearchForIndex(i);
 
-            if (temp.Data == v1)
+            if (temp.data == v1)
             {
                 g1 = temp;
             }
         }
-        for (int i = 0; i < nodes.Size; i++)
-        {
-            temp = nodes.SearchForIndex(i);
 
-            if (temp.Data == v2)
+        for (int i = 0; i < _nodes.Size; i++)
+        {
+            temp = _nodes.SearchForIndex(i);
+
+            if (temp.data == v2)
             {
                 g2 = temp;
             }
         }
-
         g1.AddNeighbour(g2);
     }
+
+    public LinkList<GraphNode> getNeighbours(int vertex)
+    {
+        GraphNode node = null;
+        GraphNode temp;
+
+        for (int i = 0; i < _nodes.Size; i++)
+        {
+            temp = _nodes.SearchForIndex(i);
+
+            if (temp.data == vertex)
+            {
+                node = temp;
+            }
+            
+        }
+
+        return node.neighbours;
+    }
+    
+
+}
     
     
     

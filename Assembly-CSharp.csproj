@@ -62,7 +62,6 @@
      <Compile Include="Assets\Scripts\GetText.cs" />
      <Compile Include="Assets\Scripts\SFX\SFXManager.cs" />
      <Compile Include="Assets\Scripts\Factory\AIRacer.cs" />
-     <Compile Include="Assets\Scripts\Graph\AIManagerAdvanced.cs" />
      <Compile Include="Assets\Scripts\SceneChanger.cs" />
      <Compile Include="Assets\Scripts\Graph\GraphScript.cs" />
      <Compile Include="Assets\Scripts\Spectators\SpectatorBehaviour.cs" />

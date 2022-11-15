@@ -5,11 +5,12 @@ using UnityEngine;
 public class GraphNode : MonoBehaviour
 {
     public int data;
+    public LinkList<GraphNode> neighbours;
 
     public GraphNode(int inData)
     {
         data = inData;
-        neighbours = new LinkedList<GraphNode>();
+        neighbours = new LinkList<GraphNode>();
     }
 
     public void AddNeighbour(GraphNode nb)
@@ -19,31 +20,11 @@ public class GraphNode : MonoBehaviour
             return;
         }
 
-        neighbours.AddToTail(nb);
+        neighbours.AddTailNode(nb);
 
     }
 
-    public Node<X> SearchForNode(x search)
-    {
-        Node<X> returnNode = null;
-
-        Node<X> currentNode = null;
-
-        while (currentNode != null)
-        {
-            if (currentNode.Data.Equals(search))
-            {
-                returnNode = currentNode;
-                break;
-            }
-            else
-            {
-                currentNode = currentNode.NextNode;
-            }
-        }
-
-        return returnNode;
-    }
+   
     
     
     
