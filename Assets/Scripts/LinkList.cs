@@ -23,10 +23,7 @@ public class LinkList<T>
         this.head = head;
     }
 
-    /*public int Size()
-    {
-        return 0;
-    }*/
+    
 
     public Node<T> GetFirstNode()
     {
@@ -75,9 +72,7 @@ public class LinkList<T>
     }
 
     public Node<T> DeleteAtHead()
-    {
-        /*if (isEmpty())
-            throw new RuntimeException("Empty Linked List.");*/
+    { 
         this.current = this.head;
         if (size == 1)
             this.head = this.tail = null;
@@ -128,4 +123,28 @@ public class LinkList<T>
         Node < T > temp = head;
         Debug.Log(temp);
     }
+
+    public Node<X> SearchForNodeIndex(int index)
+    {
+        Node<X> returnNode = null;
+        Node<X> currentNode = Head;
+
+        int inIndex = 0;
+
+        while (current != null)
+        {
+            if (index == inIndex)
+            {
+                returnNode = currentNode;
+                break;
+            }
+            else
+            {
+                currentNode = currentNode.NextNode;
+            }
+            inIndex++;
+        }
+        return returnNode;
+    }
+    
 }
